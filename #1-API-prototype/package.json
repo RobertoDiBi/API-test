@@ -1,0 +1,25 @@
+{
+  "name": "api-prototype",
+  "version": "1.0.0",
+  "description": "API prototype with 2 calls - 1) RatingAverage and 2) Reviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js "
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "prototype",
+    "ratingAverage",
+    "Reviews"
+  ],
+  "author": "Roberto Di Biase",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5"
+  }
+}
